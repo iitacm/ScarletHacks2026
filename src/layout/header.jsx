@@ -101,7 +101,7 @@ const Header = ({ sectionRefs }) => {
             >
               FAQs
             </Link>
-            <Link href="https://forms.office.com/r/SngGaAkhZR" target="_blank">
+            <Link href="https://forms.office.com/r/TVd5KinnhW" target="_blank">
               <Button
                 variant="custom"
                 letterSpacing={"1px"}

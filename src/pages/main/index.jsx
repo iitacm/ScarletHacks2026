@@ -475,7 +475,7 @@ export const MainPage = () => {
                 Sponsor Us
               </Button>
             </a>
-            <HStack color={"brand.primary"} spacing={4}>
+            {/* <HStack color={"brand.primary"} spacing={4}>
               <Link
                 href="https://discord.gg/kETeAJuzbt"
                 target="_blank"
@@ -493,7 +493,7 @@ export const MainPage = () => {
                 Join our Discord
               </Link>
               <FaDiscord fontSize={"28px"} />
-            </HStack>
+            </HStack> */}
           </VStack>
 
           <Flex
@@ -1055,30 +1055,22 @@ export const MainPage = () => {
           <Box textAlign={"center"}>
             <Text as="span" fontSize="2xl" textAlign="center" margin={"auto"}>
               Interested in being a sponsor? <br />
-              Email us on{" "}
             </Text>
-            <Link href="mailto:acm@iit.edu">
-              <Text
-                as="span"
-                color={"brand.primary"}
-                fontSize="2xl"
-                textDecoration={"underline"}
-              >
-                acm@illinoistech.edu
-              </Text>
+            <Link href="/SponsorshipPackage_ScarletHacks2026-4.pdf" target="_blank">
+                <Button
+                  variant="custom"
+                  letterSpacing={"1px"}
+                  textTransform="uppercase"
+                  size={"lg"}
+                  _hover={{ bg: "red.700" }}
+                  boxShadow="sm"
+                >
+                  Become a Sponsor
+                </Button>
+            
             </Link>
           </Box>
-          <Button
-            variant="custom"
-            letterSpacing={"1px"}
-            textTransform="uppercase"
-            size={"lg"}
-            _hover={{ bg: "red.700" }}
-            onClick={handleSponsorEmail}
-            boxShadow="sm"
-          >
-            Become a Sponsor
-          </Button>
+          
         </Flex>
       </FadeInBottom>
       
@@ -1102,7 +1094,7 @@ export const MainPage = () => {
             textTransform={"uppercase"}
             letterSpacing={"3px"}
           >
-            Previous Events
+            ScarletHacks 2025
           </Text>
 
           <Box position="relative" w="100%" maxW="1000px" mx="auto" px={{ base: 4, md: 10 }} mt={4}>
@@ -1318,7 +1310,7 @@ export const MainPage = () => {
                   Register now if you haven't already!
                 </Text>
                 <Link
-                  href="https://forms.office.com/r/SngGaAkhZR"
+                  href="https://forms.office.com/r/TVd5KinnhW"
                   target="_blank"
                 >
                   <Button

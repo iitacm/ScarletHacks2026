@@ -89,7 +89,7 @@ const Footer = () => {
                 color="black"
                 _hover={{ color: "brand.primary" }}
                 fontSize={"xl"}
-                href="https://forms.office.com/r/SngGaAkhZR"
+                href="https://forms.office.com/r/TVd5KinnhW"
                 target="_blank"
               >
                 Register Now
