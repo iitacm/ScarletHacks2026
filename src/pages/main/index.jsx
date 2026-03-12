@@ -106,7 +106,7 @@ export const MainPage = () => {
     seconds: "--",
   });
 
-  const targetDate = new Date("2026-04-03T18:00:00").getTime();
+  const targetDate = new Date("2026-04-04T09:00:00").getTime();
 
   // Function to calculate the remaining time
   const calculateTimeLeft = () => {
@@ -445,7 +445,7 @@ export const MainPage = () => {
               innovation and meaningful impact.
             </Text>
             <Text fontSize={"3xl"} color={"brand.primary"} fontWeight={"700"}>
-              April 3-5, 2026
+              April 4-5, 2026
             </Text>
             <Link href="https://forms.office.com/r/TVd5KinnhW" target="_blank">
               <Button
